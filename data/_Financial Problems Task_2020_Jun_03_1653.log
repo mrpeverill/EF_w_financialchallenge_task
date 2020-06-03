@@ -1,0 +1,141 @@
+2.6020 	ERROR 	avbin.dll failed to load. Try importing psychopy.visual
+  as the first library (before anything that uses scipy)
+  and make sure that avbin is installed.
+6.5534 	WARNING 	User requested fullscreen with size [1463  823], but screen is actually [2560, 1440]. Using actual size
+7.7087 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 1.,  1.,  1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x19FFEE70>, multiSample=False, name='window1', numSamples=2, pos=[0, 0], screen=0, size=array([2560, 1440]), stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.7087 	EXP 	window1: recordFrameIntervals = False
+7.8749 	EXP 	window1: recordFrameIntervals = True
+8.0589 	EXP 	window1: recordFrameIntervals = False
+8.3012 	EXP 	Created Instr1Text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='Instr1Text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units='height', win=Window(...), wrapWidth=1)
+8.3123 	EXP 	Created Instr2Text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='Instr2Text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'default text', units='height', win=Window(...), wrapWidth=1)
+8.3607 	EXP 	Created Instr3Text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='Instr3Text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units='height', win=Window(...), wrapWidth=1)
+8.3732 	EXP 	Created Fixation = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='Fixation', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units='height', win=Window(...), wrapWidth=1)
+8.3759 	EXP 	Created stim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='stim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.2,  0.2]), texRes=128, units='height', win=Window(...))
+8.3868 	EXP 	Created answerprompt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='answerprompt', opacity=1.0, ori=0, pos=array([ 0. ,  0.4]), rgb=array([ 0.,  0.,  0.]), text=u'default text', units='height', win=Window(...), wrapWidth=1)
+8.5545 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units='height', win=Window(...), wrapWidth=1)
+8.6043 	EXP 	Created Instr3Text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='Instr3Text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units='height', win=Window(...), wrapWidth=1)
+8.6083 	EXP 	Created Fixation = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='Fixation', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units='height', win=Window(...), wrapWidth=1)
+8.6103 	EXP 	Created stim = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='stim', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.2,  0.2]), texRes=128, units='height', win=Window(...))
+8.6219 	EXP 	Created answerprompt = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='answerprompt', opacity=1.0, ori=0, pos=array([ 0. ,  0.4]), rgb=array([ 0.,  0.,  0.]), text=u'default text', units='height', win=Window(...), wrapWidth=1)
+8.6541 	EXP 	Created practiceinstr = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='practiceinstr', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u"Let's Practice!\n\nPress Space to Continue", units='height', win=Window(...), wrapWidth=1)
+8.6576 	EXP 	Created Fixation2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='Fixation2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units='height', win=Window(...), wrapWidth=1)
+8.6592 	EXP 	Created stimulus = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='stimulus', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.2,  0.2]), texRes=128, units='height', win=Window(...))
+8.6701 	EXP 	Created feedbacktext = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='feedbacktext', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'default text', units='height', win=Window(...), wrapWidth=1)
+8.8076 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=unicode(...), units='height', win=Window(...), wrapWidth=1)
+8.8185 	EXP 	Created text_4 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='text_4', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'default text', units='height', win=Window(...), wrapWidth=1)
+8.8305 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'Get Ready!', units='height', win=Window(...), wrapWidth=1)
+8.8343 	EXP 	Created Fixation2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='Fixation2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'+', units='height', win=Window(...), wrapWidth=1)
+8.8364 	EXP 	Created stimulus = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='stimulus', opacity=1.0, ori=0.0, pos=array([ 0.,  0.]), size=array([ 0.2,  0.2]), texRes=128, units='height', win=Window(...))
+8.8477 	EXP 	Created text_5 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.025, italic=False, name='text_5', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 0.,  0.,  0.]), text=u'default text', units='height', win=Window(...), wrapWidth=1)
+8.8482 	DATA 	Mouse: Left button down, pos=(1081,716)
+8.8485 	DATA 	Mouse:  Left button up, pos=(1081,716)
+8.8496 	EXP 	window1: blendMode = 'avg'
+8.8632 	EXP 	Instr1Text: autoDraw = True
+8.8639 	EXP 	window1: blendMode = 'avg'
+8.8889 	EXP 	window1: blendMode = 'avg'
+8.9088 	EXP 	window1: blendMode = 'avg'
+8.9259 	EXP 	window1: blendMode = 'avg'
+8.9426 	EXP 	window1: blendMode = 'avg'
+8.9592 	EXP 	window1: blendMode = 'avg'
+8.9752 	EXP 	window1: blendMode = 'avg'
+8.9921 	EXP 	window1: blendMode = 'avg'
+9.0091 	EXP 	window1: blendMode = 'avg'
+9.0253 	EXP 	window1: blendMode = 'avg'
+9.0420 	EXP 	window1: blendMode = 'avg'
+9.0589 	EXP 	window1: blendMode = 'avg'
+9.0752 	EXP 	window1: blendMode = 'avg'
+9.0919 	EXP 	window1: blendMode = 'avg'
+9.1089 	EXP 	window1: blendMode = 'avg'
+9.1254 	EXP 	window1: blendMode = 'avg'
+9.1418 	EXP 	window1: blendMode = 'avg'
+9.1586 	EXP 	window1: blendMode = 'avg'
+9.1754 	EXP 	window1: blendMode = 'avg'
+9.1921 	EXP 	window1: blendMode = 'avg'
+9.2087 	EXP 	window1: blendMode = 'avg'
+9.2256 	EXP 	window1: blendMode = 'avg'
+9.2421 	EXP 	window1: blendMode = 'avg'
+9.2584 	EXP 	window1: blendMode = 'avg'
+9.2751 	EXP 	window1: blendMode = 'avg'
+9.2921 	EXP 	window1: blendMode = 'avg'
+9.3089 	EXP 	window1: blendMode = 'avg'
+9.3252 	EXP 	window1: blendMode = 'avg'
+9.3422 	EXP 	window1: blendMode = 'avg'
+9.3587 	EXP 	window1: blendMode = 'avg'
+9.3754 	EXP 	window1: blendMode = 'avg'
+9.3919 	EXP 	window1: blendMode = 'avg'
+9.4099 	EXP 	window1: blendMode = 'avg'
+9.4266 	EXP 	window1: blendMode = 'avg'
+9.4426 	EXP 	window1: blendMode = 'avg'
+9.4587 	EXP 	window1: blendMode = 'avg'
+9.4757 	EXP 	window1: blendMode = 'avg'
+9.4922 	DATA 	Keypress: space
+9.6539 	EXP 	window1: blendMode = 'avg'
+9.6656 	EXP 	Instr1Text: autoDraw = False
+9.6656 	EXP 	Instr1Text: autoDraw = False
+9.6656 	EXP 	Instr2Text: text = 'When the image of a heart is shown you will press the key that is on the SAME side of the screen that the heart is shown on. \n\nFor example, a correct response would be pressing the "1" key when the heart is on the left side of the screen\n\nPress space to continue.'
+9.6656 	EXP 	Instr2Text: autoDraw = True
+9.6662 	EXP 	window1: blendMode = 'avg'
+9.6888 	EXP 	window1: blendMode = 'avg'
+9.7088 	EXP 	window1: blendMode = 'avg'
+9.7257 	EXP 	window1: blendMode = 'avg'
+9.7421 	EXP 	window1: blendMode = 'avg'
+9.7586 	EXP 	window1: blendMode = 'avg'
+9.7753 	EXP 	window1: blendMode = 'avg'
+9.7918 	EXP 	window1: blendMode = 'avg'
+9.8087 	EXP 	window1: blendMode = 'avg'
+9.8255 	EXP 	window1: blendMode = 'avg'
+9.8418 	EXP 	window1: blendMode = 'avg'
+9.8589 	EXP 	window1: blendMode = 'avg'
+9.8753 	EXP 	window1: blendMode = 'avg'
+9.8919 	EXP 	window1: blendMode = 'avg'
+9.9093 	EXP 	window1: blendMode = 'avg'
+9.9253 	EXP 	window1: blendMode = 'avg'
+9.9427 	EXP 	window1: blendMode = 'avg'
+9.9590 	DATA 	Keypress: space
+9.9600 	EXP 	window1: blendMode = 'avg'
+9.9754 	EXP 	Instr2Text: autoDraw = False
+9.9754 	EXP 	Instr2Text: autoDraw = False
+9.9754 	EXP 	Instr3Text: autoDraw = True
+9.9760 	EXP 	window1: blendMode = 'avg'
+9.9923 	EXP 	window1: blendMode = 'avg'
+10.0088 	EXP 	window1: blendMode = 'avg'
+10.0252 	EXP 	window1: blendMode = 'avg'
+10.0423 	EXP 	window1: blendMode = 'avg'
+10.0587 	EXP 	window1: blendMode = 'avg'
+10.0751 	EXP 	window1: blendMode = 'avg'
+10.0925 	EXP 	window1: blendMode = 'avg'
+10.1092 	EXP 	window1: blendMode = 'avg'
+10.1253 	EXP 	window1: blendMode = 'avg'
+10.1421 	EXP 	window1: blendMode = 'avg'
+10.1585 	EXP 	window1: blendMode = 'avg'
+10.1755 	EXP 	window1: blendMode = 'avg'
+10.1921 	EXP 	window1: blendMode = 'avg'
+10.2085 	EXP 	window1: blendMode = 'avg'
+10.2252 	EXP 	window1: blendMode = 'avg'
+10.2419 	EXP 	window1: blendMode = 'avg'
+10.2584 	EXP 	window1: blendMode = 'avg'
+10.2751 	EXP 	window1: blendMode = 'avg'
+10.2917 	EXP 	window1: blendMode = 'avg'
+10.3085 	EXP 	window1: blendMode = 'avg'
+10.3253 	EXP 	window1: blendMode = 'avg'
+10.3418 	EXP 	window1: blendMode = 'avg'
+10.3586 	EXP 	window1: blendMode = 'avg'
+10.3753 	EXP 	window1: blendMode = 'avg'
+10.3917 	EXP 	window1: blendMode = 'avg'
+10.4093 	EXP 	window1: blendMode = 'avg'
+10.4263 	EXP 	window1: blendMode = 'avg'
+10.4420 	EXP 	window1: blendMode = 'avg'
+10.4585 	EXP 	window1: blendMode = 'avg'
+10.4755 	EXP 	window1: blendMode = 'avg'
+10.4921 	EXP 	window1: blendMode = 'avg'
+10.5086 	EXP 	window1: blendMode = 'avg'
+10.5253 	EXP 	window1: blendMode = 'avg'
+10.5419 	EXP 	window1: blendMode = 'avg'
+10.5586 	EXP 	window1: blendMode = 'avg'
+10.5751 	EXP 	window1: blendMode = 'avg'
+10.5919 	EXP 	window1: blendMode = 'avg'
+10.6091 	DATA 	Keypress: space
+10.6175 	EXP 	Imported demo.xls as conditions, 2 conditions, 2 params
+10.6183 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+10.6194 	EXP 	New trial (rep=0, index=0): {'corrResp': 1, 'xpos': -0.25}
+10.6213 	ERROR 	Couldn't find image TessImages/1.jpg; check path? (tried: C:\Users\Matt Peverill\Desktop\EF_w_financialchallenge_task\TessImages\1.jpg)
